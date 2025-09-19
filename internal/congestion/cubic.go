@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 // This cubic implementation is based on the one found in Chromiums's QUIC

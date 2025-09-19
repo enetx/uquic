@@ -4,11 +4,11 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/enetx/uquic/internal/ackhandler"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/utils/ringbuffer"
-	"github.com/enetx/uquic/internal/wire"
-	"github.com/enetx/uquic/quicvarint"
+	"github.com/refraction-networking/uquic/internal/ackhandler"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/utils/ringbuffer"
+	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/quicvarint"
 )
 
 type framer interface {

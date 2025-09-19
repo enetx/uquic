@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	quic "github.com/enetx/uquic"
+	quic "github.com/refraction-networking/uquic"
 )
 
 // Error is returned from the round tripper (for HTTP clients)

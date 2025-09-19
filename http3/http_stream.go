@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	quic "github.com/enetx/uquic"
+	quic "github.com/refraction-networking/uquic"
 )
 
 // A Stream is a HTTP/3 stream.

@@ -3,8 +3,8 @@ package wire
 import (
 	"bytes"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/quicvarint"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/quicvarint"
 )
 
 // A MaxDataFrame carries flow control information for the connection

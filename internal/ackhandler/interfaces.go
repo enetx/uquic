@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"time"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 // SentPacketHandler handles ACKs received for outgoing packets

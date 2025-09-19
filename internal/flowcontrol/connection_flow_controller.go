@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qerr"
-	"github.com/enetx/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 type connectionFlowController struct {

@@ -3,8 +3,8 @@ package quic
 import (
 	"net"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 // A sendConn allows sending using a simple Write() on a non-connected packet conn.

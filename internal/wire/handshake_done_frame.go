@@ -1,7 +1,7 @@
 package wire
 
 import (
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 // A HandshakeDoneFrame is a HANDSHAKE_DONE frame

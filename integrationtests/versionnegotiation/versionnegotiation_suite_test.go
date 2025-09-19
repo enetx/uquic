@@ -6,11 +6,11 @@ import (
 	"flag"
 	"testing"
 
-	quic "github.com/enetx/uquic"
+	quic "github.com/refraction-networking/uquic"
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/enetx/uquic/integrationtests/tools"
-	"github.com/enetx/uquic/logging"
+	"github.com/refraction-networking/uquic/integrationtests/tools"
+	"github.com/refraction-networking/uquic/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

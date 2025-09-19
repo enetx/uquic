@@ -3,8 +3,8 @@ package qlog
 import (
 	"fmt"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/logging"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/logging"
 
 	"github.com/francoispqt/gojay"
 )

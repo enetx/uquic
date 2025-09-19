@@ -13,12 +13,12 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/enetx/uquic"
-	mockquic "github.com/enetx/uquic/internal/mocks/quic"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qerr"
-	"github.com/enetx/uquic/internal/utils"
-	"github.com/enetx/uquic/quicvarint"
+	quic "github.com/refraction-networking/uquic"
+	mockquic "github.com/refraction-networking/uquic/internal/mocks/quic"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/quicvarint"
 
 	"github.com/quic-go/qpack"
 

@@ -1,7 +1,7 @@
 package logging
 
 import (
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 // PacketTypeFromHeader determines the packet type from a *wire.Header.

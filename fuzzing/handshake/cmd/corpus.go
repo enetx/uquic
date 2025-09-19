@@ -6,13 +6,13 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	fuzzhandshake "github.com/enetx/uquic/fuzzing/handshake"
-	"github.com/enetx/uquic/fuzzing/internal/helper"
-	"github.com/enetx/uquic/internal/handshake"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/testdata"
-	"github.com/enetx/uquic/internal/utils"
-	"github.com/enetx/uquic/internal/wire"
+	fuzzhandshake "github.com/refraction-networking/uquic/fuzzing/handshake"
+	"github.com/refraction-networking/uquic/fuzzing/internal/helper"
+	"github.com/refraction-networking/uquic/internal/handshake"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/testdata"
+	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 const alpn = "fuzz"

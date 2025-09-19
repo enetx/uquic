@@ -1,8 +1,8 @@
 # <div> <img style="vertical-align:middle" src="docs/uQUIC_nopadding.png" alt="drawing" width="300"/> <span style="vertical-align:middle">uQUIC</span> </div>
 
-[![Go Build Status](https://github.com/enetx/uquic/actions/workflows/go_build.yml/badge.svg?branch=master)](https://github.com/enetx/uquic/actions/workflows/go_build.yml)
-[![Ginkgo Test Status](https://github.com/enetx/uquic/actions/workflows/ginkgo_test.yml/badge.svg?branch=master)](https://github.com/enetx/uquic/actions/workflows/ginkgo_test.yml)
-[![godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/enetx/uquic)
+[![Go Build Status](https://github.com/refraction-networking/uquic/actions/workflows/go_build.yml/badge.svg?branch=master)](https://github.com/refraction-networking/uquic/actions/workflows/go_build.yml)
+[![Ginkgo Test Status](https://github.com/refraction-networking/uquic/actions/workflows/ginkgo_test.yml/badge.svg?branch=master)](https://github.com/refraction-networking/uquic/actions/workflows/ginkgo_test.yml)
+[![godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/refraction-networking/uquic)
 ---
 uQUIC is a fork of [quic-go](https://github.com/quic-go/quic-go), which provides Initial Packet fingerprinting resistance and other features. While the handshake is still performed by quic-go, this library provides interface to customize the unencrypted Initial Packet which may reveal fingerprint-able information. 
 
@@ -25,15 +25,15 @@ If you are interested in our research, please stay tuned for our paper.
 ## Development Roadmap
 - [ ] Customize Initial Packet 
 	- [x] QUIC Header 
-	- [x] QUIC Frame (~~[#3](https://github.com/enetx/uquic/issues/3)~~)
+	- [x] QUIC Frame (~~[#3](https://github.com/refraction-networking/uquic/issues/3)~~)
 		- [x] QUIC Crypto Frame
 		- [x] QUIC Padding Frame
 		- [x] QUIC Ping Frame
 		- [ ] QUIC ACK Frame (on hold)
 	- [x] TLS ClientHello Message (by [uTLS](https://github.com/refraction-networking/utls))
 		- [x] QUIC Transport Parameters (in a uTLS extension)
-- [ ] Customize Initial ACK behavior ([#1](https://github.com/enetx/uquic/issues/1), [quic-go#4007](https://github.com/quic-go/quic-go/issues/4007))
-- [ ] Customize Initial Retry behavior ([#2](https://github.com/enetx/uquic/issues/2))
+- [ ] Customize Initial ACK behavior ([#1](https://github.com/refraction-networking/uquic/issues/1), [quic-go#4007](https://github.com/quic-go/quic-go/issues/4007))
+- [ ] Customize Initial Retry behavior ([#2](https://github.com/refraction-networking/uquic/issues/2))
 - [ ] Add preset QUIC parrots
 	- [x] Google Chrome parrot (call for parrots w/ `Token/PSK`)
 	- [x] Mozilla Firefox parrot (call for parrots w/ `Token/PSK`)
@@ -62,12 +62,12 @@ import (
 	"fmt"
 	"io"
 	"log"
-	"github.com/enetx/http"
+	"net/http"
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/http3"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/http3"
 )
 
 func main() {

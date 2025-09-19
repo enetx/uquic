@@ -15,12 +15,12 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/enetx/uquic/fuzzing/internal/helper"
-	"github.com/enetx/uquic/internal/handshake"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qtls"
-	"github.com/enetx/uquic/internal/utils"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/fuzzing/internal/helper"
+	"github.com/refraction-networking/uquic/internal/handshake"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qtls"
+	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 var (

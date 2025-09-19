@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/gaukas/clienthellod"
-	"github.com/enetx/uquic/internal/handshake"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/handshake"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 // uPacketPacker is an extended packetPacker which is used

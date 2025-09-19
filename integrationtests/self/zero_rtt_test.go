@@ -9,13 +9,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	quic "github.com/enetx/uquic"
+	quic "github.com/refraction-networking/uquic"
 	tls "github.com/refraction-networking/utls"
 
-	quicproxy "github.com/enetx/uquic/integrationtests/tools/proxy"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/wire"
-	"github.com/enetx/uquic/logging"
+	quicproxy "github.com/refraction-networking/uquic/integrationtests/tools/proxy"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

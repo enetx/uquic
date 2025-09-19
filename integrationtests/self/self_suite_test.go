@@ -17,12 +17,12 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/integrationtests/tools"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/utils"
-	"github.com/enetx/uquic/internal/wire"
-	"github.com/enetx/uquic/logging"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/integrationtests/tools"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

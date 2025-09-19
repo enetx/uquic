@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 var (

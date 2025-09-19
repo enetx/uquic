@@ -1,6 +1,6 @@
 package quic
 
-import "github.com/enetx/uquic/internal/protocol"
+import "github.com/refraction-networking/uquic/internal/protocol"
 
 type sender interface {
 	Send(p *packetBuffer, gsoSize uint16, ecn protocol.ECN)

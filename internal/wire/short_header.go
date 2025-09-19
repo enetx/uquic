@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 // ParseShortHeader parses a short header packet.

@@ -1,9 +1,9 @@
 package logutils
 
 import (
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/wire"
-	"github.com/enetx/uquic/logging"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/logging"
 )
 
 // ConvertFrame converts a wire.Frame into a logging.Frame.

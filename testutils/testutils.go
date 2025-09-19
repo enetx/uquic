@@ -6,9 +6,9 @@ package testutils
 import (
 	"fmt"
 
-	"github.com/enetx/uquic/internal/handshake"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/handshake"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 // writePacket returns a new raw packet with the specified header and payload

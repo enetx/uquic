@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	quic "github.com/enetx/uquic"
-	quicproxy "github.com/enetx/uquic/integrationtests/tools/proxy"
-	"github.com/enetx/uquic/internal/protocol"
+	quic "github.com/refraction-networking/uquic"
+	quicproxy "github.com/refraction-networking/uquic/integrationtests/tools/proxy"
+	"github.com/refraction-networking/uquic/internal/protocol"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

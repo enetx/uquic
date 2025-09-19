@@ -3,7 +3,7 @@ package congestion
 import (
 	"time"
 
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 // A SendAlgorithm performs congestion control

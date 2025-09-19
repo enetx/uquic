@@ -3,7 +3,7 @@ package quic
 import (
 	"time"
 
-	"github.com/enetx/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 var deadlineSendImmediately = time.Time{}.Add(42 * time.Millisecond) // any value > time.Time{} and before time.Now() is fine

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qerr"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 type cryptoStream interface {

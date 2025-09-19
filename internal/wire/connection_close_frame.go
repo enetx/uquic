@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/quicvarint"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/quicvarint"
 )
 
 // A ConnectionCloseFrame is a CONNECTION_CLOSE frame

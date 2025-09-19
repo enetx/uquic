@@ -9,10 +9,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/integrationtests/tools/israce"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/logging"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/integrationtests/tools/israce"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

@@ -17,9 +17,9 @@ import (
 	"golang.org/x/net/idna"
 
 	"github.com/quic-go/qpack"
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/http3/httpcommon"
-	"github.com/enetx/uquic/internal/utils"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/http3/httpcommon"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 const bodyCopyBufferSize = 8 * 1024
@@ -75,12 +75,7 @@ func (w *requestWriter) writeHeaders(wr io.Writer, req *http.Request, gzip bool)
 // Modified to support Extended CONNECT:
 // Contrary to what the godoc for the http.Request says,
 // we do respect the Proto field if the method is CONNECT.
-func (w *requestWriter) encodeHeaders(
-	req *http.Request,
-	addGzipHeader bool,
-	trailers string,
-	contentLength int64,
-) error {
+func (w *requestWriter) encodeHeaders(req *http.Request, addGzipHeader bool, trailers string, contentLength int64) error {
 	host := req.Host
 	if host == "" {
 		host = req.URL.Host
@@ -275,7 +270,7 @@ func (w *requestWriter) encodeHeaders(
 
 // authorityAddr returns a given authority (a host/IP, or host:port / ip:port)
 // and returns a host:port. The port 443 is added if needed.
-func authorityAddr(scheme, authority string) (addr string) {
+func authorityAddr(scheme string, authority string) (addr string) {
 	host, port, err := net.SplitHostPort(authority)
 	if err != nil { // authority didn't have a port
 		port = "443"

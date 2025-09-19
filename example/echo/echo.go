@@ -13,7 +13,7 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/enetx/uquic"
+	quic "github.com/refraction-networking/uquic"
 )
 
 const addr = "localhost:4242"

@@ -3,7 +3,7 @@ package quic
 import (
 	"sync"
 
-	list "github.com/enetx/uquic/internal/utils/linkedlist"
+	list "github.com/refraction-networking/uquic/internal/utils/linkedlist"
 )
 
 type singleOriginTokenStore struct {

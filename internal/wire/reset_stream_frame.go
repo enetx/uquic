@@ -3,9 +3,9 @@ package wire
 import (
 	"bytes"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qerr"
-	"github.com/enetx/uquic/quicvarint"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/refraction-networking/uquic/quicvarint"
 )
 
 // A ResetStreamFrame is a RESET_STREAM frame in QUIC

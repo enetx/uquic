@@ -6,8 +6,8 @@ import (
 	"github.com/enetx/http"
 	"time"
 
-	mockquic "github.com/enetx/uquic/internal/mocks/quic"
-	"github.com/enetx/uquic/internal/utils"
+	mockquic "github.com/refraction-networking/uquic/internal/mocks/quic"
+	"github.com/refraction-networking/uquic/internal/utils"
 
 	"github.com/quic-go/qpack"
 
@@ -163,7 +163,7 @@ var _ = Describe("Response Writer", func() {
 		Expect(fields).To(HaveKeyWithValue("content-type", []string{"text/html; charset=utf-8"}))
 	})
 
-	It(`is compatible with "github.com/enetx/http".ResponseController`, func() {
+	It(`is compatible with "net/http".ResponseController`, func() {
 		Expect(rw.SetReadDeadline(time.Now().Add(1 * time.Second))).To(BeNil())
 		Expect(rw.SetWriteDeadline(time.Now().Add(1 * time.Second))).To(BeNil())
 	})

@@ -6,11 +6,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/enetx/uquic/internal/ackhandler"
-	"github.com/enetx/uquic/internal/handshake"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/qerr"
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/ackhandler"
+	"github.com/refraction-networking/uquic/internal/handshake"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/refraction-networking/uquic/internal/wire"
 	"golang.org/x/exp/rand"
 )
 

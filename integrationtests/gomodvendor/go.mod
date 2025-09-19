@@ -2,7 +2,7 @@ module test
 
 go 1.21
 
-require github.com/enetx/uquic v0.0.5
+require github.com/refraction-networking/uquic v0.0.5
 
 require (
 	github.com/andybalholm/brotli v1.0.6 // indirect

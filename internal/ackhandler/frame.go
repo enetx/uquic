@@ -1,7 +1,7 @@
 package ackhandler
 
 import (
-	"github.com/enetx/uquic/internal/wire"
+	"github.com/refraction-networking/uquic/internal/wire"
 )
 
 // FrameHandler handles the acknowledgement and the loss of a frame.

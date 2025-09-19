@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/enetx/uquic/internal/testdata"
+	"github.com/refraction-networking/uquic/internal/testdata"
 	tls "github.com/refraction-networking/utls"
 
 	. "github.com/onsi/ginkgo/v2"

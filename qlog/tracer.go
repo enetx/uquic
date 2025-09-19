@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/logging"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/logging"
 )
 
 func NewTracer(w io.WriteCloser) *logging.Tracer {

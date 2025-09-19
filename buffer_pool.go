@@ -3,7 +3,7 @@ package quic
 import (
 	"sync"
 
-	"github.com/enetx/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/protocol"
 )
 
 type packetBuffer struct {

@@ -7,10 +7,10 @@ import (
 	"net/netip"
 	"time"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/internal/protocol"
-	"github.com/enetx/uquic/internal/utils"
-	"github.com/enetx/uquic/logging"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/logging"
 
 	"github.com/francoispqt/gojay"
 )

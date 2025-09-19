@@ -4,7 +4,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/enetx/uquic/logging"
+	"github.com/refraction-networking/uquic/logging"
 
 	"github.com/francoispqt/gojay"
 )
@@ -23,7 +23,7 @@ func init() {
 		return
 	}
 	for _, d := range info.Deps {
-		if d.Path == "github.com/enetx/uquic" {
+		if d.Path == "github.com/refraction-networking/uquic" {
 			quicGoVersion = d.Version
 			if d.Replace != nil {
 				if len(d.Replace.Version) > 0 {

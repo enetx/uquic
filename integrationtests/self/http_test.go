@@ -16,8 +16,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/http3"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/http3"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

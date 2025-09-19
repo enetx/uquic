@@ -4,7 +4,7 @@ import (
 	"math/bits"
 	"net"
 
-	"github.com/enetx/uquic/internal/utils"
+	"github.com/refraction-networking/uquic/internal/utils"
 )
 
 // A closedLocalConn is a connection that we closed locally.

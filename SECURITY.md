@@ -17,4 +17,4 @@ something not yet deployed, just discuss it openly.
 
 ## Reporting a non security bug
 
-For non-security bugs, please simply file a GitHub [issue](https://github.com/enetx/uquic/issues/new).
+For non-security bugs, please simply file a GitHub [issue](https://github.com/refraction-networking/uquic/issues/new).

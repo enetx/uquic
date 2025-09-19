@@ -8,8 +8,8 @@ import (
 
 	"github.com/enetx/http"
 
-	quic "github.com/enetx/uquic"
-	"github.com/enetx/uquic/http3/httpcommon"
+	quic "github.com/refraction-networking/uquic"
+	"github.com/refraction-networking/uquic/http3/httpcommon"
 	tls "github.com/refraction-networking/utls"
 	"golang.org/x/net/http/httpguts"
 )
@@ -92,10 +92,7 @@ func (r *URoundTripper) RoundTrip(req *http.Request) (*http.Response, error) {
 	return r.RoundTripOpt(req, RoundTripOpt{})
 }
 
-func (r *URoundTripper) getClient(
-	hostname string,
-	onlyCached bool,
-) (rtc *roundTripCloserWithCount, isReused bool, err error) {
+func (r *URoundTripper) getClient(hostname string, onlyCached bool) (rtc *roundTripCloserWithCount, isReused bool, err error) {
 	r.mutex.Lock()
 	defer r.mutex.Unlock()
 
