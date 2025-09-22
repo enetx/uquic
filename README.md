@@ -13,7 +13,7 @@ If you have any questions, bug reports or contributions, you are welcome to publ
 Development is still in progress and we welcome any contributions adding new features or fixing extant bugs.
 
 # Disclaimer
-This repository belongs to a large research project on how to fingerprint QUIC clients and how to mitigate such fingerprinting. We do not encourage any malicious use of this project's output, including this repository, [uTLS](https://github.com/refraction-networking/utls), and [clienthellod](https://github.com/gaukas/clienthellod).
+This repository belongs to a large research project on how to fingerprint QUIC clients and how to mitigate such fingerprinting. We do not encourage any malicious use of this project's output, including this repository, [uTLS](https://github.com/enetx/utls), and [clienthellod](https://github.com/gaukas/clienthellod).
 
 Our research paper is still yet to be published and therefore this repository is neither ready for production use nor peer-reviewed. And the scope of our research is limited that such mimicry backed by this library MAY NOT be realisticly indistinguishable from the real QUIC clients being mimicked, and some misuses of this library MAY lead to easier fingerprinting against the mimic. We welcome any contributions to improve the realism of the mimicry, as well as expanding the scope of this project. 
 
@@ -30,7 +30,7 @@ If you are interested in our research, please stay tuned for our paper.
 		- [x] QUIC Padding Frame
 		- [x] QUIC Ping Frame
 		- [ ] QUIC ACK Frame (on hold)
-	- [x] TLS ClientHello Message (by [uTLS](https://github.com/refraction-networking/utls))
+	- [x] TLS ClientHello Message (by [uTLS](https://github.com/enetx/utls))
 		- [x] QUIC Transport Parameters (in a uTLS extension)
 - [ ] Customize Initial ACK behavior ([#1](https://github.com/enetx/uquic/issues/1), [quic-go#4007](https://github.com/quic-go/quic-go/issues/4007))
 - [ ] Customize Initial Retry behavior ([#2](https://github.com/enetx/uquic/issues/2))
@@ -64,7 +64,7 @@ import (
 	"log"
 	"net/http"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	quic "github.com/enetx/uquic"
 	"github.com/enetx/uquic/http3"

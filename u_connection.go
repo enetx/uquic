@@ -9,7 +9,7 @@ import (
 	"github.com/enetx/uquic/internal/utils"
 	"github.com/enetx/uquic/internal/wire"
 	"github.com/enetx/uquic/logging"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 // [UQUIC]

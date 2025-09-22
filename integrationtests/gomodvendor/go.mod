@@ -15,7 +15,7 @@ require (
 	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/onsi/ginkgo/v2 v2.13.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
-	github.com/refraction-networking/utls v1.6.4 // indirect
+	github.com/enetx/utls v1.6.4 // indirect
 	go.uber.org/mock v0.4.0 // indirect
 	golang.org/x/crypto v0.22.0 // indirect
 	golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f // indirect

@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	quic "github.com/enetx/uquic"
 	"github.com/enetx/uquic/integrationtests/tools/israce"

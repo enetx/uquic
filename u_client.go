@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"github.com/enetx/uquic/internal/protocol"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 type uClient struct {

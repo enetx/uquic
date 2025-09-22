@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	mocklogging "github.com/enetx/uquic/internal/mocks/logging"
 	"github.com/enetx/uquic/internal/protocol"

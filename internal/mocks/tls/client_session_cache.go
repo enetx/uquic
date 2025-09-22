@@ -10,7 +10,7 @@
 package mocktls
 
 import (
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 	reflect "reflect"
 
 	gomock "go.uber.org/mock/gomock"

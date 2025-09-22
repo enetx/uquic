@@ -10,7 +10,7 @@ import (
 	"time"
 
 	quic "github.com/enetx/uquic"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	quicproxy "github.com/enetx/uquic/integrationtests/tools/proxy"
 	"github.com/enetx/uquic/internal/protocol"

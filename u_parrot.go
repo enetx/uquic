@@ -6,7 +6,7 @@ import (
 	"math/big"
 	mrand "math/rand"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 type QUICID struct {

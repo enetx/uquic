@@ -7,7 +7,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	"github.com/enetx/uquic/internal/protocol"
 

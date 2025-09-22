@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"unsafe"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
-//go:linkname cipherSuitesTLS13 github.com/refraction-networking/utls.cipherSuitesTLS13
+//go:linkname cipherSuitesTLS13 github.com/enetx/utls.cipherSuitesTLS13
 var cipherSuitesTLS13 []unsafe.Pointer
 
 //go:linkname defaultCipherSuitesTLS13 crypto/tls.defaultCipherSuitesTLS13

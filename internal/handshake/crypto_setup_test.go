@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	mocktls "github.com/enetx/uquic/internal/mocks/tls"
 	"github.com/enetx/uquic/internal/protocol"

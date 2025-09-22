@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	quic "github.com/enetx/uquic"
 	mockquic "github.com/enetx/uquic/internal/mocks/quic"

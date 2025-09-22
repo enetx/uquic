@@ -13,7 +13,7 @@ import (
 	"net"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	"github.com/enetx/uquic/fuzzing/internal/helper"
 	"github.com/enetx/uquic/internal/handshake"

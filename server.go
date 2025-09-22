@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	"github.com/enetx/uquic/internal/handshake"
 	"github.com/enetx/uquic/internal/protocol"

@@ -3,7 +3,7 @@ package testdata
 import (
 	"io"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

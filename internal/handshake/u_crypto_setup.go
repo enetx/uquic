@@ -13,7 +13,7 @@ import (
 	"github.com/enetx/uquic/internal/wire"
 	"github.com/enetx/uquic/logging"
 	"github.com/enetx/uquic/quicvarint"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 type uCryptoSetup struct {

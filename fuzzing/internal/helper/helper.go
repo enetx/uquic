@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"time"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 // NthBit gets the n-th bit of a byte (counting starts at 0).

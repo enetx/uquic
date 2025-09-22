@@ -6,7 +6,7 @@ import (
 
 	"github.com/enetx/uquic/internal/protocol"
 	"github.com/enetx/uquic/internal/utils"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 type UTransport struct {

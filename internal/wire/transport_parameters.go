@@ -15,7 +15,7 @@ import (
 	"github.com/enetx/uquic/internal/qerr"
 	"github.com/enetx/uquic/internal/utils"
 	"github.com/enetx/uquic/quicvarint"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 )
 
 // AdditionalTransportParametersClient are additional transport parameters that will be added

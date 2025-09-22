@@ -1,6 +1,6 @@
 package quic
 
-import tls "github.com/refraction-networking/utls"
+import tls "github.com/enetx/utls"
 
 const (
 	DefaultUDPDatagramMinSize = 1200

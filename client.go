@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 
 	"github.com/enetx/uquic/internal/protocol"
 	"github.com/enetx/uquic/internal/utils"

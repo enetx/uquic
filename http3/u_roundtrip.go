@@ -10,7 +10,7 @@ import (
 
 	quic "github.com/enetx/uquic"
 	"github.com/enetx/uquic/http3/httpcommon"
-	tls "github.com/refraction-networking/utls"
+	tls "github.com/enetx/utls"
 	"golang.org/x/net/http/httpguts"
 )
 
