@@ -3,9 +3,9 @@ package flowcontrol
 import (
 	"fmt"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/qerr"
-	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/qerr"
+	"github.com/enetx/uquic/internal/utils"
 )
 
 type streamFlowController struct {

@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 // Bandwidth of a connection

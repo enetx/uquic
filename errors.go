@@ -3,7 +3,7 @@ package quic
 import (
 	"fmt"
 
-	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/enetx/uquic/internal/qerr"
 )
 
 type (

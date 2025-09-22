@@ -3,10 +3,10 @@ package quic
 import (
 	"fmt"
 
-	"github.com/refraction-networking/uquic/internal/ackhandler"
+	"github.com/enetx/uquic/internal/ackhandler"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 type retransmissionQueue struct {

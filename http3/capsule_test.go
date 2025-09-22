@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/quicvarint"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

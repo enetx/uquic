@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 // taken from the QUIC draft

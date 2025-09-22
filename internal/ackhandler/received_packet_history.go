@@ -3,9 +3,9 @@ package ackhandler
 import (
 	"sync"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	list "github.com/refraction-networking/uquic/internal/utils/linkedlist"
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/internal/protocol"
+	list "github.com/enetx/uquic/internal/utils/linkedlist"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 // interval is an interval from one PacketNumber to the other

@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/fuzzing/internal/helper"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/fuzzing/internal/helper"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 const version = protocol.Version1

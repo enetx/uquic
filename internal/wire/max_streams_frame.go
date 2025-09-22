@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/quicvarint"
 )
 
 // A MaxStreamsFrame is a MAX_STREAMS frame

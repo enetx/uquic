@@ -9,10 +9,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	quic "github.com/refraction-networking/uquic"
+	quic "github.com/enetx/uquic"
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/refraction-networking/uquic/internal/qerr"
+	"github.com/enetx/uquic/internal/qerr"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

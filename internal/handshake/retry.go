@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 var (

@@ -3,7 +3,7 @@ package ackhandler
 import (
 	"fmt"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 type sentPacketHistory struct {

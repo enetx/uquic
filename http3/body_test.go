@@ -3,8 +3,8 @@ package http3
 import (
 	"errors"
 
-	quic "github.com/refraction-networking/uquic"
-	mockquic "github.com/refraction-networking/uquic/internal/mocks/quic"
+	quic "github.com/enetx/uquic"
+	mockquic "github.com/enetx/uquic/internal/mocks/quic"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

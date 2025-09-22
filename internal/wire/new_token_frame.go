@@ -5,8 +5,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/quicvarint"
 )
 
 // A NewTokenFrame is a NEW_TOKEN frame

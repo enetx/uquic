@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/internal/utils/ringbuffer"
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/utils/ringbuffer"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 const (

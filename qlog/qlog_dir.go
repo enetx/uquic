@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/logging"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/logging"
 )
 
 // DefaultTracer creates a qlog file in the qlog directory specified by the QLOGDIR environment variable.

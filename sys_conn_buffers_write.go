@@ -9,8 +9,8 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/utils"
 )
 
 func setSendBuffer(c net.PacketConn) error {

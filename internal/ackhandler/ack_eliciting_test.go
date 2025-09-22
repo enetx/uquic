@@ -3,7 +3,7 @@ package ackhandler
 import (
 	"reflect"
 
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/internal/wire"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

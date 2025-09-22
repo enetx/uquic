@@ -11,10 +11,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/internal/wire"
-	"github.com/refraction-networking/uquic/logging"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/wire"
+	"github.com/enetx/uquic/logging"
 )
 
 var errListenerAlreadySet = errors.New("listener already set")
@@ -357,7 +357,7 @@ func (t *Transport) listen(conn rawConn) {
 		//nolint:staticcheck // SA1019 ignore this!
 		// TODO: This code is used to ignore wsa errors on Windows.
 		// Since net.Error.Temporary is deprecated as of Go 1.18, we should find a better solution.
-		// See https://github.com/refraction-networking/uquic/issues/1737 for details.
+		// See https://github.com/enetx/uquic/issues/1737 for details.
 		if nerr, ok := err.(net.Error); ok && nerr.Temporary() {
 			t.mutex.Lock()
 			closed := t.closed

@@ -6,8 +6,8 @@ import (
 	"github.com/enetx/http"
 	"time"
 
-	mockquic "github.com/refraction-networking/uquic/internal/mocks/quic"
-	"github.com/refraction-networking/uquic/internal/utils"
+	mockquic "github.com/enetx/uquic/internal/mocks/quic"
+	"github.com/enetx/uquic/internal/utils"
 
 	"github.com/quic-go/qpack"
 

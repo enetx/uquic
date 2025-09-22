@@ -12,11 +12,11 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	quic "github.com/refraction-networking/uquic"
-	quicproxy "github.com/refraction-networking/uquic/integrationtests/tools/proxy"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
-	"github.com/refraction-networking/uquic/testutils"
+	quic "github.com/enetx/uquic"
+	quicproxy "github.com/enetx/uquic/integrationtests/tools/proxy"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
+	"github.com/enetx/uquic/testutils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

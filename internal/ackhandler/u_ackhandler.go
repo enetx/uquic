@@ -1,9 +1,9 @@
 package ackhandler
 
 import (
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/logging"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/logging"
 )
 
 // [UQUIC]

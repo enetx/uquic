@@ -8,10 +8,10 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"github.com/refraction-networking/uquic/fuzzing/internal/helper"
-	"github.com/refraction-networking/uquic/fuzzing/transportparameters"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/fuzzing/internal/helper"
+	"github.com/enetx/uquic/fuzzing/transportparameters"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 func getRandomData(l int) []byte {

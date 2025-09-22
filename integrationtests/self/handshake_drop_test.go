@@ -12,10 +12,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/refraction-networking/uquic"
-	quicproxy "github.com/refraction-networking/uquic/integrationtests/tools/proxy"
-	"github.com/refraction-networking/uquic/internal/wire"
-	"github.com/refraction-networking/uquic/quicvarint"
+	quic "github.com/enetx/uquic"
+	quicproxy "github.com/enetx/uquic/integrationtests/tools/proxy"
+	"github.com/enetx/uquic/internal/wire"
+	"github.com/enetx/uquic/quicvarint"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

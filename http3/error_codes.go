@@ -3,7 +3,7 @@ package http3
 import (
 	"fmt"
 
-	quic "github.com/refraction-networking/uquic"
+	quic "github.com/enetx/uquic"
 )
 
 type ErrCode quic.ApplicationErrorCode

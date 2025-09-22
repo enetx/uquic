@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/refraction-networking/uquic/fuzzing/internal/helper"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
+	"github.com/enetx/uquic/fuzzing/internal/helper"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
 )
 
 // PrefixLen is the number of bytes used for configuration

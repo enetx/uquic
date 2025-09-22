@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/quicvarint"
 )
 
 // A NewConnectionIDFrame is a NEW_CONNECTION_ID frame

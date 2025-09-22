@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 // A Packet is a packet

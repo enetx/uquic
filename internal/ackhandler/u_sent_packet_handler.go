@@ -1,6 +1,6 @@
 package ackhandler
 
-import "github.com/refraction-networking/uquic/internal/protocol"
+import "github.com/enetx/uquic/internal/protocol"
 
 type uSentPacketHandler struct {
 	*sentPacketHandler

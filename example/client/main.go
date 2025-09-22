@@ -12,10 +12,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/http3"
-	"github.com/refraction-networking/uquic/internal/testdata"
-	"github.com/refraction-networking/uquic/qlog"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/http3"
+	"github.com/enetx/uquic/internal/testdata"
+	"github.com/enetx/uquic/qlog"
 )
 
 func main() {

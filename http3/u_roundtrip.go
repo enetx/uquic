@@ -8,8 +8,8 @@ import (
 
 	"github.com/enetx/http"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/http3/httpcommon"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/http3/httpcommon"
 	tls "github.com/refraction-networking/utls"
 	"golang.org/x/net/http/httpguts"
 )

@@ -9,9 +9,9 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	"github.com/refraction-networking/uquic/internal/handshake"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/logging"
+	"github.com/enetx/uquic/internal/handshake"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/logging"
 )
 
 // The StreamID is the ID of a QUIC stream.

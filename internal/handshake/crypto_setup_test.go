@@ -12,12 +12,12 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	mocktls "github.com/refraction-networking/uquic/internal/mocks/tls"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/qerr"
-	"github.com/refraction-networking/uquic/internal/testdata"
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/internal/wire"
+	mocktls "github.com/enetx/uquic/internal/mocks/tls"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/qerr"
+	"github.com/enetx/uquic/internal/testdata"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/wire"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

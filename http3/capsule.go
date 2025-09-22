@@ -3,7 +3,7 @@ package http3
 import (
 	"io"
 
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/quicvarint"
 )
 
 // CapsuleType is the type of the capsule.

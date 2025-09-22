@@ -11,10 +11,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	mocklogging "github.com/refraction-networking/uquic/internal/mocks/logging"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/wire"
-	"github.com/refraction-networking/uquic/logging"
+	mocklogging "github.com/enetx/uquic/internal/mocks/logging"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/wire"
+	"github.com/enetx/uquic/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

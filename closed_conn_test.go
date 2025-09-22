@@ -3,7 +3,7 @@ package quic
 import (
 	"net"
 
-	"github.com/refraction-networking/uquic/internal/utils"
+	"github.com/enetx/uquic/internal/utils"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

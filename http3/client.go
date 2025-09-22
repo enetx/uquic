@@ -16,10 +16,10 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/quicvarint"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/quicvarint"
 
 	"github.com/quic-go/qpack"
 )

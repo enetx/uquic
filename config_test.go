@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/logging"
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/logging"
+	"github.com/enetx/uquic/quicvarint"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

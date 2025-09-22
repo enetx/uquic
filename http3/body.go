@@ -5,7 +5,7 @@ import (
 	"io"
 	"net"
 
-	quic "github.com/refraction-networking/uquic"
+	quic "github.com/enetx/uquic"
 )
 
 // The HTTPStreamer allows taking over a HTTP/3 stream. The interface is implemented by:

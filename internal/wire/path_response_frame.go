@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 )
 
 // A PathResponseFrame is a PATH_RESPONSE frame

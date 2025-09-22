@@ -8,8 +8,8 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/qlog"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/qlog"
 )
 
 var _ = Describe("qlog dir tests", Serial, func() {

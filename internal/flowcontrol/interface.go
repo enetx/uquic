@@ -1,6 +1,6 @@
 package flowcontrol
 
-import "github.com/refraction-networking/uquic/internal/protocol"
+import "github.com/enetx/uquic/internal/protocol"
 
 type flowController interface {
 	// for sending

@@ -3,8 +3,8 @@ package wire
 import (
 	"bytes"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
-	"github.com/refraction-networking/uquic/quicvarint"
+	"github.com/enetx/uquic/internal/protocol"
+	"github.com/enetx/uquic/quicvarint"
 )
 
 // A MaxStreamDataFrame is a MAX_STREAM_DATA frame

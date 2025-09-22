@@ -10,8 +10,8 @@ import (
 
 	tls "github.com/refraction-networking/utls"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/http3"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/http3"
 )
 
 func main() {

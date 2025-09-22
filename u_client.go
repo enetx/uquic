@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/refraction-networking/uquic/internal/protocol"
+	"github.com/enetx/uquic/internal/protocol"
 	tls "github.com/refraction-networking/utls"
 )
 

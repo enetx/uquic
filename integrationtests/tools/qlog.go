@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	quic "github.com/refraction-networking/uquic"
-	"github.com/refraction-networking/uquic/internal/utils"
-	"github.com/refraction-networking/uquic/logging"
-	"github.com/refraction-networking/uquic/qlog"
+	quic "github.com/enetx/uquic"
+	"github.com/enetx/uquic/internal/utils"
+	"github.com/enetx/uquic/logging"
+	"github.com/enetx/uquic/qlog"
 )
 
 func QlogTracer(logger io.Writer) *logging.Tracer {

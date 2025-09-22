@@ -5,8 +5,8 @@ package mocklogging
 import (
 	"net"
 
-	"github.com/refraction-networking/uquic/internal/mocks/logging/internal"
-	"github.com/refraction-networking/uquic/logging"
+	"github.com/enetx/uquic/internal/mocks/logging/internal"
+	"github.com/enetx/uquic/logging"
 
 	"go.uber.org/mock/gomock"
 )
